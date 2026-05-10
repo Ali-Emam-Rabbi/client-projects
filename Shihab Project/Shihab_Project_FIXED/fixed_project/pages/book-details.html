@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Details | BookHub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body data-page="details">
+  <div id="site-header"></div>
+
+  <main class="section">
+    <div class="container">
+      <div class="page-hero reveal">
+        <span class="eyebrow">Book details</span>
+        <h1>Look closer before you add to cart</h1>
+        <p>Every title page includes the essentials without any loading traps or duplicate rendering.</p>
+      </div>
+
+      <section id="details-view" class="details-card reveal"></section>
+      <section id="details-missing" class="empty-state hidden">
+        <h2>Book not found</h2>
+        <p>The title you requested could not be found in the current collection.</p>
+        <a class="btn btn-primary" href="shop.html">Back to Shop</a>
+      </section>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+  <div id="toast-root" aria-live="polite" aria-atomic="true"></div>
+  <script type="module" src="../js/main.js"></script>
+</body>
+</html>

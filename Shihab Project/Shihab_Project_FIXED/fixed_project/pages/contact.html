@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | BookHub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body data-page="contact">
+  <div id="site-header"></div>
+
+  <main class="section">
+    <div class="container">
+      <div class="page-hero reveal">
+        <span class="eyebrow">Contact BookHub</span>
+        <h1>Reach out for support or reading inquiries</h1>
+        <p>Use the form below or connect directly through phone, email, or Facebook.</p>
+      </div>
+
+      <section class="contact-layout">
+        <div class="contact-card reveal">
+          <h2>Contact information</h2>
+          <div class="contact-list">
+            <a href="tel:01823148841"><i class="fa-solid fa-phone"></i>01823148841</a>
+            <a href="mailto:mushfikur32@gmail.com"><i class="fa-solid fa-envelope"></i>mushfikur32@gmail.com</a>
+            <a class="social-link" href="https://www.facebook.com/mushfikur.rahman.376695" target="_blank" rel="noreferrer" aria-label="BookHub Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+              <span>Facebook</span>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <label>Name
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label>Email
+            <input type="email" name="email" placeholder="Your email" required>
+          </label>
+          <label>Message
+            <textarea name="message" rows="6" placeholder="Write your message" required></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+          <p class="form-note" id="contact-feedback"></p>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+  <div id="toast-root" aria-live="polite" aria-atomic="true"></div>
+  <script type="module" src="../js/main.js"></script>
+</body>
+</html>

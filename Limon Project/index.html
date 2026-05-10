@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Limon Photography</title>
+  <meta
+    name="description"
+    content="Limon Photography is a modern photography e-commerce experience for booking premium shoots, exploring digital galleries, and purchasing curated visual collections."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Limon Photography home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" focusable="false">
+            <path d="M18 20.5a6.5 6.5 0 1 1 13 0 6.5 6.5 0 0 1-13 0Z"></path>
+            <path d="M10 17c0-4.4 3.6-8 8-8h28c4.4 0 8 3.6 8 8v30c0 4.4-3.6 8-8 8H18c-4.4 0-8-3.6-8-8V17Zm8-4a4 4 0 0 0-4 4v25.2l11.2-12.1a3.6 3.6 0 0 1 5.1-.2l7.1 6.9 5.4-5.3a3.6 3.6 0 0 1 5 .1L50 33.7V17a4 4 0 0 0-4-4H18Z"></path>
+          </svg>
+        </span>
+        <span class="brand-copy">
+          <strong>Limon Photography</strong>
+          <small>Story-driven photography studio</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#shop">Gallery / Shop</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#auth">Login / Signup</a>
+        <a href="#cart" class="cart-link">
+          Cart
+          <span id="cartCount" class="cart-count">0</span>
+        </a>
+      </nav>
+    </header>
+
+    <main id="app" class="app-shell" aria-live="polite">
+      <section class="page-loader" id="pageLoader">
+        <div class="loader-ring"></div>
+        <p>Developing the frame...</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <div class="footer-brand-top">
+          <span class="brand-mark footer-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" focusable="false">
+              <path d="M18 20.5a6.5 6.5 0 1 1 13 0 6.5 6.5 0 0 1-13 0Z"></path>
+              <path d="M10 17c0-4.4 3.6-8 8-8h28c4.4 0 8 3.6 8 8v30c0 4.4-3.6 8-8 8H18c-4.4 0-8-3.6-8-8V17Zm8-4a4 4 0 0 0-4 4v25.2l11.2-12.1a3.6 3.6 0 0 1 5.1-.2l7.1 6.9 5.4-5.3a3.6 3.6 0 0 1 5 .1L50 33.7V17a4 4 0 0 0-4-4H18Z"></path>
+            </svg>
+          </span>
+          <div>
+            <h3>Limon Photography</h3>
+            <p>Premium storytelling through weddings, portraits, events, and downloadable visual collections.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <ul class="footer-list footer-contact-list">
+          <li>
+            <div class="footer-static-item">
+              <span class="footer-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M3 6.8A2.8 2.8 0 0 1 5.8 4h12.4A2.8 2.8 0 0 1 21 6.8v10.4a2.8 2.8 0 0 1-2.8 2.8H5.8A2.8 2.8 0 0 1 3 17.2V6.8Zm2.3-.3 6.2 4.9c.3.2.7.2 1 0l6.2-4.9H5.3Zm13.4 2.2-5.2 4.1a2.5 2.5 0 0 1-3 0L5.3 8.7v8.5c0 .3.2.5.5.5h12.4c.3 0 .5-.2.5-.5V8.7Z"></path></svg>
+              </span>
+              <span>
+                <small>mdlimon48219325@gmail.com</small>
+              </span>
+            </div>
+          </li>
+          <li>
+            <div class="footer-static-item">
+              <span class="footer-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M6.6 3h2.8c.5 0 .9.4 1 .8l.5 3.1c.1.4 0 .8-.3 1.1L8.8 9.7a14 14 0 0 0 5.5 5.5l1.7-1.8c.3-.3.7-.4 1.1-.3l3.1.5c.5.1.8.5.8 1V17.4A1.6 1.6 0 0 1 19.4 19C10.9 19 4 12.1 4 3.6A1.6 1.6 0 0 1 5.6 2h1Z"></path></svg>
+              </span>
+              <span>
+                <small>01748219324</small>
+              </span>
+            </div>
+          </li>
+          <li>
+            <div class="footer-static-item">
+              <span class="footer-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 2.8a6.7 6.7 0 0 1 6.7 6.7c0 4.8-6.7 11.7-6.7 11.7S5.3 14.3 5.3 9.5A6.7 6.7 0 0 1 12 2.8Zm0 3a3.7 3.7 0 1 0 0 7.4 3.7 3.7 0 0 0 0-7.4Z"></path></svg>
+              </span>
+              <span>
+                <small>Kushtia,Dhaka Bangladesh</small>
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Follow</h4>
+        <div class="social-links">
+          <a
+            class="social-item"
+            href="https://www.facebook.com/share/1ENfLvW643/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Facebook"
+            title="Facebook"
+          >
+            <span class="footer-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M13.5 21v-7h2.4l.4-3h-2.8V9.1c0-.9.3-1.6 1.6-1.6H16V4.8c-.3 0-1.1-.1-2.1-.1-2.1 0-3.6 1.3-3.6 3.7V11H8v3h2.2v7h3.3Z"></path></svg>
+            </span>
+            <span>Facebook</span>
+          </a>
+          <a
+            class="social-item"
+            href="https://www.instagram.com/md.limon542?igsh=MTd1dTJzZmFjdW5xeA=="
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Instagram"
+            title="Instagram"
+          >
+            <span class="footer-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M7.8 3h8.4A4.8 4.8 0 0 1 21 7.8v8.4a4.8 4.8 0 0 1-4.8 4.8H7.8A4.8 4.8 0 0 1 3 16.2V7.8A4.8 4.8 0 0 1 7.8 3Zm0 1.8A3 3 0 0 0 4.8 7.8v8.4a3 3 0 0 0 3 3h8.4a3 3 0 0 0 3-3V7.8a3 3 0 0 0-3-3H7.8Zm8.9 1.3a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2ZM12 7.6A4.4 4.4 0 1 1 7.6 12 4.4 4.4 0 0 1 12 7.6Zm0 1.8A2.6 2.6 0 1 0 14.6 12 2.6 2.6 0 0 0 12 9.4Z"></path></svg>
+            </span>
+            <span>Instagram</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div id="toastContainer" class="toast-container" aria-live="assertive" aria-atomic="true"></div>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>

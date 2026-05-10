@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cart | BookHub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body data-page="cart">
+  <div id="site-header"></div>
+
+  <main class="section">
+    <div class="container">
+      <div class="page-hero reveal">
+        <span class="eyebrow">Reading cart</span>
+        <h1>Your selected books</h1>
+        <p>Adjust quantities, review totals in BDT, and keep your reading list saved locally.</p>
+      </div>
+
+      <section class="cart-layout">
+        <div id="cart-items" class="cart-list"></div>
+        <aside class="summary-card reveal" id="cart-summary"></aside>
+      </section>
+    </div>
+  </main>
+
+  <div class="checkout-modal hidden" id="checkout-modal" aria-hidden="true">
+    <div class="checkout-modal__backdrop" data-checkout-close></div>
+    <div class="checkout-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="checkout-title">
+      <button class="checkout-modal__close" type="button" aria-label="Close checkout form" data-checkout-close>
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="checkout-modal__content">
+        <span class="eyebrow">Checkout</span>
+        <h2 id="checkout-title">Complete your order</h2>
+        <p>Fill in your delivery details to place this order.</p>
+        <form class="checkout-form" id="checkout-form">
+          <label>
+            <span>Full Name</span>
+            <input type="text" name="fullName" autocomplete="name" required>
+          </label>
+          <label>
+            <span>Phone Number</span>
+            <input type="tel" name="phone" autocomplete="tel" required>
+          </label>
+          <label>
+            <span>Address</span>
+            <textarea name="address" rows="4" autocomplete="street-address" required></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">
+            <i class="fa-solid fa-paper-plane"></i>
+            Submit Order
+          </button>
+          <p class="form-note" id="checkout-feedback"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="site-footer"></div>
+  <div id="toast-root" aria-live="polite" aria-atomic="true"></div>
+  <script type="module" src="../js/main.js"></script>
+</body>
+</html>

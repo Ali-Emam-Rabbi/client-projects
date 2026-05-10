@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "name": "Napa 500mg Tablet",
+    "price": 18,
+    "category": "Tablets",
+    "image": "https://medeasy.health/_next/image?url=https://api.medeasy.health/media/medicines/IMG-20231023-WA0137.jpg&w=750&q=75",
+    "description": "Paracetamol tablet for fever and mild pain relief. Use only as directed.",
+    "rating": 4.8,
+    "date": "2026-04-12"
+  },
+  {
+    "id": 2,
+    "name": "Seclo 20 Capsule",
+    "price": 70,
+    "category": "Tablets",
+    "image": "https://medeasy.health/_next/image?url=https://api.medeasy.health/media/medicines/IMG-20231021-WA0156.jpg&w=750&q=75",
+    "description": "Omeprazole capsule for acidity support and digestive comfort.",
+    "rating": 4.7,
+    "date": "2026-03-28"
+  },
+  {
+    "id": 3,
+    "name": "Ace Plus Tablet",
+    "price": 30,
+    "category": "Tablets",
+    "image": "https://cdn.osudpotro.com/medicine/ace-plus-1630120662335.webp",
+    "description": "Pain and fever support tablet with clear dosage guidance on pack.",
+    "rating": 4.6,
+    "date": "2026-03-10"
+  },
+  {
+    "id": 4,
+    "name": "Ceevit 250mg Tablet",
+    "price": 25,
+    "category": "Vitamins",
+    "image": "https://www.lazzpharma.com/Content/ImageData/Product/Orginal/61b8fb4a-3430-4aae-bbcd-bca84e815705/CEEVIT%20CEEVIT%20250MG%20250MG%20Tab.webp",
+    "description": "Vitamin C supplement for daily wellness and immune support.",
+    "rating": 4.9,
+    "date": "2026-04-01"
+  },
+  {
+    "id": 5,
+    "name": "DP Vitamin D3 Capsule",
+    "price": 90,
+    "category": "Vitamins",
+    "image": "https://m.media-amazon.com/images/I/618gZQrs-6L._AC_UF1000,1000_QL80_.jpg",
+    "description": "Vitamin D3 capsule for bone and immunity support.",
+    "rating": 4.5,
+    "date": "2026-02-22"
+  },
+  {
+    "id": 6,
+    "name": "Zinc Plus Tablet",
+    "price": 55,
+    "category": "Vitamins",
+    "image": "https://unsplash.com/photos/kpDK4yqR1c0/download?force=true&w=1200",
+    "description": "Zinc supplement for nutritional support and general wellbeing.",
+    "rating": 4.4,
+    "date": "2026-01-15"
+  },
+  {
+    "id": 7,
+    "name": "Histacin 4mg Tablet",
+    "price": 12,
+    "category": "Tablets",
+    "image": "https://medeasy.health/_next/image?url=https://api.medeasy.health/media/medicines/IMG-20240122-WA0318.jpg&w=750&q=75",
+    "description": "Antihistamine tablet for allergy symptoms. May cause drowsiness.",
+    "rating": 4.2,
+    "date": "2026-04-18"
+  },
+  {
+    "id": 8,
+    "name": "Tusca Plus Syrup",
+    "price": 95,
+    "category": "Syrups",
+    "image": "https://www.squarepharma.com.bd/products/Tusca%20Plus%20Syp.jpg",
+    "description": "Cough syrup for soothing throat irritation and cough discomfort.",
+    "rating": 4.5,
+    "date": "2026-04-03"
+  },
+  {
+    "id": 9,
+    "name": "Ambrox Syrup",
+    "price": 80,
+    "category": "Syrups",
+    "image": "https://i.chaldn.com/_mpimage/ambrox-syrup-100ml-1-pc?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D105281&q=low&v=1",
+    "description": "Mucolytic syrup for productive cough support.",
+    "rating": 4.4,
+    "date": "2026-02-04"
+  },
+  {
+    "id": 10,
+    "name": "Baby Zinc Syrup",
+    "price": 65,
+    "category": "Baby Care",
+    "image": "https://medex.com.bd/storage/images/packaging/xinc-10-mg-syrup-27470606261-i1-VHecb7EdahdQbJfd7iVB.webp",
+    "description": "Child-friendly zinc syrup. Follow pediatric dosage advice.",
+    "rating": 4.7,
+    "date": "2026-03-16"
+  },
+  {
+    "id": 11,
+    "name": "ORS Saline Pack",
+    "price": 7,
+    "category": "First Aid",
+    "image": "https://medex.com.bd/storage/images/packaging/orsaline-1025-gm-powder-76097023982-i1-QMxepI8jWqF5kru9O2w7.jpg",
+    "description": "Oral rehydration salts for fluid and electrolyte replacement.",
+    "rating": 4.9,
+    "date": "2026-04-21"
+  },
+  {
+    "id": 12,
+    "name": "Savlon Antiseptic Liquid",
+    "price": 120,
+    "category": "First Aid",
+    "image": "https://unsplash.com/photos/j-ped4HD32Q/download?force=true&w=1200",
+    "description": "Antiseptic liquid for cleaning minor cuts and household hygiene.",
+    "rating": 4.8,
+    "date": "2026-01-30"
+  },
+  {
+    "id": 13,
+    "name": "Digital Thermometer",
+    "price": 220,
+    "category": "Devices",
+    "image": "https://healthway.com.bd/media/images/Digital_Thermo_Mete_0gtBKLm.original.jpegquality-60.format-webp.webp",
+    "description": "Fast-read digital thermometer with clear LCD display.",
+    "rating": 4.6,
+    "date": "2026-04-08"
+  },
+  {
+    "id": 14,
+    "name": "Blood Pressure Monitor",
+    "price": 1850,
+    "category": "Devices",
+    "image": "https://healthway.com.bd/media/images/Omron_HEM-7143T1.original.jpegquality-60.format-webp.webp",
+    "description": "Upper-arm digital blood pressure monitor for home tracking.",
+    "rating": 4.5,
+    "date": "2026-02-19"
+  },
+  {
+    "id": 15,
+    "name": "Glucometer Starter Kit",
+    "price": 1450,
+    "category": "Devices",
+    "image": "https://i.chaldn.com/_mpimage/safe-accu-blood-glucose-monitor-device-kit?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D135797&q=best&v=1",
+    "description": "Blood glucose meter starter kit with strips and lancets.",
+    "rating": 4.6,
+    "date": "2026-03-01"
+  },
+  {
+    "id": 16,
+    "name": "Pulse Oximeter",
+    "price": 780,
+    "category": "Devices",
+    "image": "https://i.insider.com/5eb1c358144192149529927a?width=700",
+    "description": "Finger pulse oximeter for oxygen saturation and pulse readings.",
+    "rating": 4.3,
+    "date": "2026-01-26"
+  },
+  {
+    "id": 17,
+    "name": "Surgical Face Mask Box",
+    "price": 160,
+    "category": "Personal Care",
+    "image": "https://www.weprintboxes.com/media/Surgical-Face-Mask-Boxes-5.jpg",
+    "description": "Disposable three-layer face masks for daily protection.",
+    "rating": 4.7,
+    "date": "2026-04-14"
+  },
+  {
+    "id": 18,
+    "name": "Hand Sanitizer 250ml",
+    "price": 140,
+    "category": "Personal Care",
+    "image": "https://unsplash.com/photos/fu3lD4xPpII/download?force=true&w=1200",
+    "description": "Alcohol-based sanitizer for quick hand hygiene.",
+    "rating": 4.6,
+    "date": "2026-04-02"
+  },
+  {
+    "id": 19,
+    "name": "Antiseptic Bandage Roll",
+    "price": 95,
+    "category": "First Aid",
+    "image": "https://www.byramhealthcare.com/-/media/byramhealthcare/products/inriver/79506-15813.jpg",
+    "description": "Soft bandage roll for wound dressing and first-aid kits.",
+    "rating": 4.2,
+    "date": "2026-02-08"
+  },
+  {
+    "id": 20,
+    "name": "Pain Relief Gel",
+    "price": 135,
+    "category": "Personal Care",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW6tBs2-_Y0SfJEGWSu3Estu7n0mxzI2IZNQ&s",
+    "description": "Topical gel for muscle and joint discomfort relief.",
+    "rating": 4.3,
+    "date": "2026-03-07"
+  },
+  {
+    "id": 21,
+    "name": "Calcium Plus Tablet",
+    "price": 110,
+    "category": "Vitamins",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2O8jmSdM0XmITtmbdDOKhIte5311P-0-Xjg&s",
+    "description": "Calcium supplement for bone strength and everyday nutrition.",
+    "rating": 4.4,
+    "date": "2026-02-15"
+  },
+  {
+    "id": 22,
+    "name": "Iron Folic Tablet",
+    "price": 75,
+    "category": "Vitamins",
+    "image": "https://cpimg.tistatic.com/07787285/b/4/Iron-Folic-Acid-Tablet.jpg",
+    "description": "Iron and folic acid supplement for nutritional support.",
+    "rating": 4.5,
+    "date": "2026-04-20"
+  },
+  {
+    "id": 23,
+    "name": "Kids Multivitamin Syrup",
+    "price": 155,
+    "category": "Baby Care",
+    "image": "https://www.arogga.com/_next/image?url=https%3A%2F%2Fcdn2.arogga.com%2FeyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC8zNjMyOFwvMzYzMjgtTnV0cnVtLUtpZHMtYnh6ZzlqLndlYnAiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMDAsImhlaWdodCI6MTAwMCwiZml0Ijoib3V0c2lkZSJ9LCJvdmVybGF5V2l0aCI6eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJtaXNjXC93bS5wbmciLCJhbHBoYSI6OTB9fX0%3D&w=1280&q=75",
+    "description": "Multivitamin syrup formulated for children. Parent supervision advised.",
+    "rating": 4.8,
+    "date": "2026-03-21"
+  },
+  {
+    "id": 24,
+    "name": "Baby Rash Cream",
+    "price": 210,
+    "category": "Baby Care",
+    "image": "https://unsplash.com/photos/uFHDWls1KLU/download?force=true&w=1200",
+    "description": "Gentle rash cream for baby skin comfort and care.",
+    "rating": 4.7,
+    "date": "2026-01-18"
+  },
+  {
+    "id": 25,
+    "name": "Nebulizer Machine",
+    "price": 2450,
+    "category": "Devices",
+    "image": "https://unsplash.com/photos/UjaXMJbDNM4/download?force=true&w=1200",
+    "description": "Compact nebulizer machine for respiratory therapy support.",
+    "rating": 4.5,
+    "date": "2026-04-11"
+  },
+  {
+    "id": 26,
+    "name": "Sterile Gauze Pads",
+    "price": 85,
+    "category": "First Aid",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg7dW4MOK9bQYYnDvRv-IMLbgZCq34KeXwTg&s",
+    "description": "Sterile gauze pads for dressing minor wounds.",
+    "rating": 4.3,
+    "date": "2026-02-26"
+  },
+  {
+    "id": 27,
+    "name": "Cetirizine 10mg Tablet",
+    "price": 22,
+    "category": "Tablets",
+    "image": "https://unsplash.com/photos/jwWtZrm67VI/download?force=true&w=1200",
+    "description": "Allergy relief tablet for sneezing, runny nose, and itching.",
+    "rating": 4.4,
+    "date": "2026-04-16"
+  },
+  {
+    "id": 28,
+    "name": "Antacid Suspension",
+    "price": 115,
+    "category": "Syrups",
+    "image": "https://www.selco.com.pk/assets/images/products/Antacid%20Suspension%20(1).png",
+    "description": "Liquid antacid suspension for acidity and indigestion support.",
+    "rating": 4.5,
+    "date": "2026-03-27"
+  },
+  {
+    "id": 29,
+    "name": "Salbutamol Syrup",
+    "price": 48,
+    "category": "Syrups",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS32TbjupFOaFF494baVGkYRV9IgRc_nyM_PQ&s",
+    "description": "Respiratory support syrup. Use with professional advice.",
+    "rating": 4.1,
+    "date": "2026-02-11"
+  },
+  {
+    "id": 30,
+    "name": "Omega 3 Softgel",
+    "price": 320,
+    "category": "Vitamins",
+    "image": "https://www.arogga.com/_next/image?url=https%3A%2F%2Fcdn2.arogga.com%2FeyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC82NjMyN1wvNjYzMjctTWFsaWhhLTMxLXVqcGZxZC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjEwMDAsImZpdCI6Im91dHNpZGUifSwib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoiYXJvZ2dhIiwia2V5IjoibWlzY1wvd20ucG5nIiwiYWxwaGEiOjkwfX19&w=1280&q=75",
+    "description": "Omega-3 softgel supplement for heart and wellness support.",
+    "rating": 4.6,
+    "date": "2026-04-05"
+  },
+  {
+    "id": 31,
+    "name": "Disposable Gloves Pack",
+    "price": 260,
+    "category": "Personal Care",
+    "image": "https://i5.walmartimages.com/seo/Comfy-Package-Black-Disposable-Nitrile-Gloves-for-Food-Prep-Latex-Free-Glove-200-Pack-Small_3d9d072d-6524-46d4-ac7d-f1f8557168ed.4703d8809664bd98a95b28663a8d4f5b.jpeg",
+    "description": "Disposable examination gloves for clean handling and hygiene.",
+    "rating": 4.4,
+    "date": "2026-03-05"
+  },
+  {
+    "id": 32,
+    "name": "Eye Drop Lubricant",
+    "price": 175,
+    "category": "Personal Care",
+    "image": "https://dvago-assets.s3.ap-southeast-1.amazonaws.com/dvago-products-images/lubricane-15ml-eye-drop-1s.webp",
+    "description": "Lubricating eye drops for dry-eye comfort. Avoid touching dropper tip.",
+    "rating": 4.3,
+    "date": "2026-01-29"
+  }
+]

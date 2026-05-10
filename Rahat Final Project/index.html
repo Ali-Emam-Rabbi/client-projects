@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZR Pharmacy | Trusted Pharmacy Essentials</title>
+  <meta
+    name="description"
+    content="ZR Pharmacy is a modern pharmacy e-commerce website with trusted wellness essentials, diagnostics, hygiene care, and a smooth cart and checkout flow."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="brand-block">
+        <a class="brand" href="#/home" aria-label="ZR Pharmacy home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" role="img">
+              <defs>
+                <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#2dd4bf"></stop>
+                  <stop offset="100%" stop-color="#0f8bd7"></stop>
+                </linearGradient>
+              </defs>
+              <rect x="6" y="6" width="52" height="52" rx="18" fill="url(#brandGradient)"></rect>
+              <path d="M19 32h26" stroke="#ffffff" stroke-width="6" stroke-linecap="round"></path>
+              <path d="M32 19v26" stroke="#ffffff" stroke-width="6" stroke-linecap="round"></path>
+              <path d="M24 17c4-4 12-4 16 0" stroke="#b8fff5" stroke-width="3" stroke-linecap="round" fill="none"></path>
+            </svg>
+          </span>
+          <span>
+            <strong>ZR Pharmacy</strong>
+            <small>Care delivered with clarity</small>
+          </span>
+        </a>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="#/home">Home</a>
+        <a href="#/shop">Shop</a>
+        <a href="#/about">About</a>
+        <a href="#/contact">Contact</a>
+        <a href="#/auth">Login / Signup</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="ghost-button" id="searchShortcut">Quick Shop</button>
+        <a class="cart-link" href="#/cart" aria-label="Open cart">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span>Cart</span>
+          <strong id="cartCount">0</strong>
+        </a>
+      </div>
+    </header>
+
+    <main id="app"></main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <a class="brand brand-footer" href="#/home" aria-label="ZR Pharmacy home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" role="img">
+              <rect x="6" y="6" width="52" height="52" rx="18" fill="url(#brandGradient)"></rect>
+              <path d="M19 32h26" stroke="#ffffff" stroke-width="6" stroke-linecap="round"></path>
+              <path d="M32 19v26" stroke="#ffffff" stroke-width="6" stroke-linecap="round"></path>
+              <path d="M24 17c4-4 12-4 16 0" stroke="#b8fff5" stroke-width="3" stroke-linecap="round" fill="none"></path>
+            </svg>
+          </span>
+          <span>
+            <strong>ZR Pharmacy</strong>
+            <small>Modern essentials for daily care</small>
+          </span>
+        </a>
+        <p>
+          Trusted pharmacy shopping for wellness, first aid, hygiene, diagnostics, and everyday support.
+        </p>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <div class="footer-links">
+          <a href="#/home">Home</a>
+          <a href="#/shop">Shop</a>
+          <a href="#/about">About</a>
+          <a href="#/cart">Cart</a>
+          <a href="#/checkout">Checkout</a>
+          <a href="#/contact">Contact</a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Contact Info</h4>
+        <div class="footer-links footer-contact">
+          <span><i class="fa-solid fa-envelope"></i> smrahat0211@gmail.com</span>
+          <span><i class="fa-solid fa-location-dot"></i> Meherpur, Dhaka, Bangladesh</span>
+        </div>
+      </div>
+
+      <div>
+        <h4>Follow</h4>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/s-m-rahat-serazee-6a191623b/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.facebook.com/S.M.Rahat.Serazee/" target="_blank" rel="noreferrer" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

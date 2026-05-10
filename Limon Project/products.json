@@ -1,0 +1,212 @@
+[
+  {
+    "id": "wedding-cinematic",
+    "title": "Cinematic Wedding Story",
+    "price": 32000,
+    "category": "Wedding",
+    "description": "A full-day wedding photography experience with story-led coverage, couple portraits, ceremonial highlights, and a polished online delivery gallery.",
+    "image": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
+    "details": [
+      "10 hours on location",
+      "Two photographers",
+      "120 edited high-resolution images",
+      "Online gallery delivery"
+    ],
+    "createdAt": "2026-04-10"
+  },
+  {
+    "id": "portrait-editorial",
+    "title": "Editorial Portrait Session",
+    "price": 9500,
+    "category": "Portrait",
+    "description": "A styled portrait experience for personal branding, graduation, creative portfolios, or elegant solo storytelling with guided posing.",
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1200&q=80",
+    "details": [
+      "90-minute guided session",
+      "One location",
+      "25 fully edited portraits",
+      "Moodboard assistance"
+    ],
+    "createdAt": "2026-04-14"
+  },
+  {
+    "id": "event-premium",
+    "title": "Premium Event Coverage",
+    "price": 18000,
+    "category": "Event",
+    "description": "Coverage for corporate launches, cultural nights, birthday celebrations, and intimate private events with documentary pacing and polished edits.",
+    "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80",
+    "details": [
+      "Up to 6 hours coverage",
+      "Fast turnaround preview set",
+      "80 edited images",
+      "Suitable for indoor events"
+    ],
+    "createdAt": "2026-04-01"
+  },
+  {
+    "id": "nature-print-pack",
+    "title": "Nature Print Collection",
+    "price": 4200,
+    "category": "Nature",
+    "description": "A curated digital pack of landscape and nature fine-art photographs suitable for printing, editorial use, or calming interior displays.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "details": [
+      "12 digital fine-art images",
+      "4K print-ready files",
+      "Instant digital access",
+      "Personal display license"
+    ],
+    "createdAt": "2026-04-20"
+  },
+  {
+    "id": "family-sunset",
+    "title": "Sunset Family Session",
+    "price": 8800,
+    "category": "Family",
+    "description": "Warm, relaxed family portraits photographed during golden hour, focused on emotion, movement, and candid interactions.",
+    "image": "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=1200&q=80",
+    "details": [
+      "Up to 5 family members",
+      "Outdoor golden hour session",
+      "30 edited images",
+      "Private online album"
+    ],
+    "createdAt": "2026-03-28"
+  },
+  {
+    "id": "couple-film",
+    "title": "Couple Story Session",
+    "price": 11000,
+    "category": "Portrait",
+    "description": "An intimate couple shoot shaped like a visual diary, with natural motion, quiet direction, and cinematic framing in one destination.",
+    "image": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=1200&q=80",
+    "details": [
+      "2-hour location session",
+      "Outfit planning guidance",
+      "35 edited images",
+      "Mini slideshow delivery"
+    ],
+    "createdAt": "2026-04-16"
+  },
+  {
+    "id": "product-brand",
+    "title": "Brand Product Photo Set",
+    "price": 15000,
+    "category": "Commercial",
+    "description": "Clean, polished product and brand photography for online selling, social promotion, campaign banners, and catalogs.",
+    "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80",
+    "details": [
+      "Up to 12 products",
+      "Styled tabletop setup",
+      "White and lifestyle backgrounds",
+      "Web-optimized exports"
+    ],
+    "createdAt": "2026-03-19"
+  },
+  {
+    "id": "street-gallery-pack",
+    "title": "Street Mood Gallery Pack",
+    "price": 3600,
+    "category": "Digital",
+    "description": "A digital gallery of urban textures, cinematic alley scenes, and mood-rich compositions created for inspiration boards and design references.",
+    "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "details": [
+      "15 downloadable JPG files",
+      "Optimized for screens and presentations",
+      "Curated tonal color grading",
+      "Instant purchase access"
+    ],
+    "createdAt": "2026-04-23"
+  },
+  {
+    "id": "maternity-softlight",
+    "title": "Softlight Maternity Shoot",
+    "price": 9900,
+    "category": "Portrait",
+    "description": "A calm, elegant maternity portrait session with soft styling, gentle direction, and thoughtful close-up storytelling.",
+    "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1200&q=80",
+    "details": [
+      "Studio or home session",
+      "Wardrobe tone guidance",
+      "28 edited photographs",
+      "Private gallery access"
+    ],
+    "createdAt": "2026-04-05"
+  },
+  {
+    "id": "travel-wallpaper",
+    "title": "Travel Wallpaper Bundle",
+    "price": 2200,
+    "category": "Digital",
+    "description": "A high-resolution wallpaper pack featuring travel imagery, architectural moments, and scenic compositions for desktop and mobile use.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "details": [
+      "20 wallpaper crops",
+      "Desktop and mobile ratios",
+      "Immediate digital delivery",
+      "Personal use only"
+    ],
+    "createdAt": "2026-04-25"
+  },
+  {
+    "id": "engagement-luxe",
+    "title": "Luxe Engagement Session",
+    "price": 14500,
+    "category": "Wedding",
+    "description": "A pre-wedding engagement set with refined styling, dramatic composition, and location-led storytelling for save-the-date visuals.",
+    "image": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=1200&q=80",
+    "details": [
+      "2.5-hour luxury session",
+      "Two wardrobe changes",
+      "40 edited images",
+      "Save-the-date design picks"
+    ],
+    "createdAt": "2026-04-12"
+  },
+  {
+    "id": "concert-night",
+    "title": "Concert & Stage Coverage",
+    "price": 21000,
+    "category": "Event",
+    "description": "High-energy stage, backstage, and audience coverage with strong lighting control for live performances and artist moments.",
+    "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1200&q=80",
+    "details": [
+      "Up to 7 hours coverage",
+      "Low-light editing expertise",
+      "100 selected edits",
+      "Commercial-ready delivery"
+    ],
+    "createdAt": "2026-03-31"
+  },
+  {
+    "id": "newborn-gentle",
+    "title": "Gentle Newborn Session",
+    "price": 12000,
+    "category": "Family",
+    "description": "A warm indoor newborn shoot designed around comfort, soft tones, parent details, and a calm paced workflow.",
+    "image": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1200&q=80",
+    "details": [
+      "Home session option",
+      "Parent and baby portraits",
+      "22 edited files",
+      "Comfort-first timing"
+    ],
+    "createdAt": "2026-04-08"
+  },
+  {
+    "id": "wildlife-series",
+    "title": "Wildlife Digital Series",
+    "price": 5200,
+    "category": "Nature",
+    "description": "A premium downloadable wildlife gallery featuring dramatic close-ups and habitat-rich compositions for collectors and creatives.",
+    "image": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?auto=format&fit=crop&w=1200&q=80",
+    "details": [
+      "10 collector-grade digital images",
+      "Color-calibrated exports",
+      "Ideal for moodboards and prints",
+      "Digital file access"
+    ],
+    "createdAt": "2026-04-18"
+  }
+]

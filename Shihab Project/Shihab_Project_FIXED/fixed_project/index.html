@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookHub | Your Gateway to Worlds</title>
+  <meta name="description" content="BookHub is a modern library-inspired bookstore for readers across fiction, academic, novel, story, and Islamic titles.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="home">
+  <div id="site-header"></div>
+
+  <main>
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Library-inspired online bookstore</span>
+          <h1>Books that feel acurated, not crowded.</h1>
+          <p>
+            BookHub brings together thoughtful shelves, trusted picks, and a calm reading-first shopping
+            experience for every kind of reader.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="pages/shop.html"><i class="fa-solid fa-book-open"></i> Browse Collection</a>
+            <a class="btn btn-secondary" href="pages/about.html"><i class="fa-solid fa-user"></i> Meet the Founder</a>
+          </div>
+          <div class="hero-metrics">
+            <div>
+              <strong>30+</strong>
+              <span>Books ready to explore</span>
+            </div>
+            <div>
+              <strong>7</strong>
+              <span>Core reading categories</span>
+            </div>
+            <div>
+              <strong>Local</strong>
+              <span>Cart saved in your browser</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-card hero-card-main">
+            <div class="hero-card-top">
+              <span>Signature Shelf</span>
+              <span>BookHub</span>
+            </div>
+            <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80" alt="Bookshelves in a library">
+            <div class="hero-card-body">
+              <h2>Find your next meaningful read.</h2>
+              <p>Carefully arranged collections for fiction lovers, students, and reflective readers.</p>
+            </div>
+          </div>
+          <div class="floating-note">
+            <span>Featured today</span>
+            <strong>Reader favorites with fresh arrivals every week</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="eyebrow">Featured books</span>
+            <h2>Selected for thoughtful readers</h2>
+          </div>
+          <a class="text-link" href="pages/shop.html">See full catalog</a>
+        </div>
+        <div class="book-grid" id="featured-books"></div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="eyebrow">Popular categories</span>
+            <h2>Browse by the kind of reading you want</h2>
+          </div>
+        </div>
+        <div class="category-grid" id="category-highlights"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split-panel">
+        <div class="panel-copy reveal">
+          <span class="eyebrow">New arrivals</span>
+          <h2>Freshly added titles with strong reader pull</h2>
+          <p>
+            From modern nonfiction to timeless novels, our newest shelf keeps the collection feeling
+            alive and current without turning into noise.
+          </p>
+          <a class="btn btn-primary" href="pages/shop.html?sort=newest">Explore New Arrivals</a>
+        </div>
+        <div class="compact-book-list" id="new-arrivals"></div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container founder-banner reveal">
+        <div>
+          <span class="eyebrow">Built with care</span>
+          <h2>BookHub is founded by Mushfikur Rahman Shihab</h2>
+          <p>
+            A clean, accessible reading space designed to make book discovery feel warm, focused, and easy.
+          </p>
+        </div>
+        <a class="btn btn-light" href="pages/contact.html"><i class="fa-solid fa-envelope"></i> Contact BookHub</a>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <div id="toast-root" aria-live="polite" aria-atomic="true"></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

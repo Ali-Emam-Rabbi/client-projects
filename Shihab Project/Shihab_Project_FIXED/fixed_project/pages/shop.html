@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop Books | BookHub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body data-page="shop">
+  <div id="site-header"></div>
+
+  <main class="section">
+    <div class="container">
+      <div class="page-hero reveal">
+        <span class="eyebrow">Book collection</span>
+        <h1>Explore the full BookHub shelf</h1>
+        <p>Search by title, refine by category or price, and sort the shelf the way you like.</p>
+      </div>
+
+      <section class="shop-layout">
+        <aside class="filter-card reveal">
+          <div class="filter-block">
+            <label for="search-input">Search books</label>
+            <input id="search-input" type="search" placeholder="Type a book title">
+          </div>
+
+          <div class="filter-block">
+            <label for="category-filter">Category</label>
+            <select id="category-filter"></select>
+          </div>
+
+          <div class="filter-block">
+            <div class="range-head">
+              <label for="price-filter">Max price</label>
+              <strong id="price-value">৳2000</strong>
+            </div>
+            <input id="price-filter" type="range" min="200" max="2000" step="50" value="2000">
+          </div>
+
+          <div class="filter-block">
+            <label for="sort-filter">Sort by</label>
+            <select id="sort-filter">
+              <option value="newest">Newest</option>
+              <option value="low-high">Price low to high</option>
+              <option value="high-low">Price high to low</option>
+            </select>
+          </div>
+
+          <button class="btn btn-secondary" id="clear-filters" type="button">Reset Filters</button>
+        </aside>
+
+        <section>
+          <div class="list-toolbar reveal">
+            <p id="results-label">Loading collection...</p>
+          </div>
+          <div class="book-grid" id="shop-grid"></div>
+          <div class="empty-state hidden" id="shop-empty">
+            <h2>No books matched your filters</h2>
+            <p>Try broadening your search or resetting the category and price filters.</p>
+          </div>
+        </section>
+      </section>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+  <div id="toast-root" aria-live="polite" aria-atomic="true"></div>
+  <script type="module" src="../js/main.js"></script>
+</body>
+</html>

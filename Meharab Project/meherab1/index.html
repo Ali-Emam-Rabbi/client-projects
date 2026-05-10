@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LuxeAura — Premium Store</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">LuxeAura</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="cart-btn" id="cartBtn">
+        <i class="fas fa-shopping-bag"></i>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-tag">New Collection 2025</p>
+      <h1 class="hero-title">Elevate Your<br/><span>Everyday.</span></h1>
+      <p class="hero-subtitle">Discover curated premium products crafted for those who appreciate the finer things in life.</p>
+      <div class="hero-btns">
+        <a href="#products" class="btn btn-primary">Shop Now</a>
+        <a href="#about" class="btn btn-ghost">Our Story</a>
+      </div>
+    </div>
+    <div class="hero-card floating">
+      <div class="hero-card-inner">
+        <i class="fas fa-star"></i>
+        <p>4.9 Rating</p>
+        <span>2,400+ Happy Customers</span>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ===== FEATURES BAR ===== -->
+  <div class="features-bar">
+    <div class="feature-item">
+      <i class="fas fa-truck"></i>
+      <span>Free Shipping Over ৳2000</span>
+    </div>
+    <div class="feature-item">
+      <i class="fas fa-undo"></i>
+      <span>30-Day Returns</span>
+    </div>
+    <div class="feature-item">
+      <i class="fas fa-shield-alt"></i>
+      <span>Secure Payments</span>
+    </div>
+    <div class="feature-item">
+      <i class="fas fa-headset"></i>
+      <span>24/7 Support</span>
+    </div>
+  </div>
+
+  <!-- ===== PRODUCTS SECTION ===== -->
+  <section class="products-section" id="products">
+    <div class="section-header">
+      <p class="section-tag">Our Collection</p>
+      <h2>Featured Products</h2>
+      <p class="section-sub">Handpicked items for the discerning buyer</p>
+    </div>
+
+    <!-- FILTERS -->
+    <div class="filters-row">
+      <div class="filter-group">
+        <label>Category</label>
+        <div class="filter-chips" id="categoryFilter">
+          <button class="chip active" data-category="all">All</button>
+          <button class="chip" data-category="fashion">Fashion</button>
+          <button class="chip" data-category="tech">Tech</button>
+          <button class="chip" data-category="lifestyle">Lifestyle</button>
+        </div>
+      </div>
+      <div class="filter-group">
+        <label>Max Price: <span id="priceLabel">৳5000</span></label>
+        <input type="range" id="priceFilter" min="500" max="5000" value="5000" step="100" class="price-slider"/>
+      </div>
+    </div>
+
+    <!-- PRODUCTS GRID -->
+    <div class="products-grid" id="productsGrid">
+      <!-- Injected by JS -->
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="about-section" id="about">
+    <div class="about-grid">
+      <div class="about-image-wrap">
+        <div class="founder-photo-placeholder" id="founderPhoto">
+          <!-- Replace src below with the actual founder image path when available -->
+          <img src="data/images/meherab.jpg" alt="Founder Photo" onerror="this.style.display='none'; document.getElementById('founderPlaceholderIcon').style.display='flex'"/>
+          <div class="placeholder-icon" id="founderPlaceholderIcon" style="display:none;">
+            <i class="fas fa-user"></i>
+            <span>Founder Photo</span>
+          </div>
+        </div>
+        <div class="about-badge">
+          <i class="fas fa-award"></i>
+          <div>
+            <strong>Trusted Founder</strong>
+            <span>Since 2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-content">
+        <p class="section-tag">About Us</p>
+        <h2>Meet the Founder</h2>
+        <h3 class="founder-name">Meharab Hosen</h3>
+        <p class="about-text">
+          LuxeAura was born from a passion for quality and a desire to bring premium lifestyle products closer to everyday people. Meharab Hosen founded this store with a single vision — making excellence accessible, one product at a time.
+        </p>
+        <p class="about-text">
+          Every item in our collection is carefully selected to ensure it meets our high standards of craftsmanship, quality, and style.
+        </p>
+        <div class="founder-links">
+          <a href="https://www.facebook.com/meharab.hosen.2024" target="_blank" class="founder-link facebook">
+            <i class="fab fa-facebook-f"></i>
+            Facebook Profile
+          </a>
+          <a href="mailto:meharabhosen28@gmail.com" class="founder-link gmail">
+            <i class="fas fa-envelope"></i>
+            meharabhosen28@gmail.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT / FOOTER ===== -->
+  <footer class="footer" id="contact">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h2>LuxeAura</h2>
+        <p>Premium products. Honest prices. Delivered with care.</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/meharab.hosen.2024" target="_blank" class="social-icon">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="mailto:meharabhosen28@gmail.com" class="social-icon">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Get In Touch</h4>
+        <p><i class="fab fa-facebook-f"></i> <a href="https://www.facebook.com/meharab.hosen.2024" target="_blank">Meharab Hosen</a></p>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:meharabhosen28@gmail.com">meharabhosen28@gmail.com</a></p>
+        <p><i class="fas fa-map-marker-alt"></i> Bangladesh</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 LuxeAura. All rights reserved. Built with ❤️ by Meharab Hosen.</p>
+    </div>
+  </footer>
+
+  <!-- ===== CART SIDEBAR ===== -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <div class="cart-sidebar" id="cartSidebar">
+    <div class="cart-header">
+      <h3>Shopping Bag</h3>
+      <button class="close-cart" id="closeCart"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="cart-items" id="cartItems">
+      <div class="cart-empty">
+        <i class="fas fa-shopping-bag"></i>
+        <p>Your bag is empty</p>
+      </div>
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>Total</span>
+        <span id="cartTotal">৳0</span>
+      </div>
+      <button class="btn btn-primary checkout-btn">Proceed to Checkout</button>
+    </div>
+  </div>
+
+  <!-- ===== TOAST ===== -->
+  <div class="toast" id="toast">
+    <i class="fas fa-check-circle"></i>
+    <span id="toastMsg">Item added!</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

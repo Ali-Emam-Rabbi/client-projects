@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login or Signup | BookHub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body data-page="auth">
+  <div id="site-header"></div>
+
+  <main class="section">
+    <div class="container auth-layout">
+      <section class="auth-copy reveal">
+        <span class="eyebrow">Member access</span>
+        <h1>Keep your BookHub shelf personal.</h1>
+        <p>
+          Create an account locally in your browser or sign in to continue exploring your saved experience.
+        </p>
+      </section>
+
+      <section class="auth-card reveal">
+        <div class="auth-tabs" role="tablist" aria-label="Authentication tabs">
+          <button class="auth-tab active" data-auth-tab="login" type="button"><i class="fa-solid fa-right-to-bracket"></i> Login</button>
+          <button class="auth-tab" data-auth-tab="signup" type="button"><i class="fa-solid fa-user-plus"></i> Signup</button>
+        </div>
+
+        <form id="login-form" class="auth-form">
+          <label>Email
+            <input type="email" name="email" placeholder="mushfikur32@gmail.com" required>
+          </label>
+          <label>Password
+            <input type="password" name="password" placeholder="Enter password" minlength="6" required>
+          </label>
+          <button class="btn btn-primary" type="submit"><i class="fa-solid fa-right-to-bracket"></i> Login</button>
+        </form>
+
+        <form id="signup-form" class="auth-form hidden">
+          <label>Full name
+            <input type="text" name="name" placeholder="Your full name" required>
+          </label>
+          <label>Email
+            <input type="email" name="email" placeholder="Enter email" required>
+          </label>
+          <label>Password
+            <input type="password" name="password" placeholder="Create password" minlength="6" required>
+          </label>
+          <button class="btn btn-primary" type="submit"><i class="fa-solid fa-user-plus"></i> Create Account</button>
+        </form>
+
+        <p class="auth-note" id="auth-status">No account is required to browse the catalog.</p>
+      </section>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+  <div id="toast-root" aria-live="polite" aria-atomic="true"></div>
+  <script type="module" src="../js/main.js"></script>
+</body>
+</html>
